@@ -1,4 +1,5 @@
 import './App.css';
+import HelloWord from './components/HellowWord'
 
 function App() {
   
@@ -22,6 +23,8 @@ function App() {
       <p>soma: {sum(3 , 5)} </p>
 
       <img src={url} alt="Miha imagem"/>
+
+      <HelloWord/>
     </div>
   );
 }
