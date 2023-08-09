@@ -1,0 +1,10 @@
+.frasesContainer{
+    background-color: red;
+    padding: 5px;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+
+.frasesContainer p{
+    color: black;
+}

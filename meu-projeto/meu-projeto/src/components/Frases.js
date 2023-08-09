@@ -1,7 +1,9 @@
+import Styles from './Frase.module.css'
+
 function Frases(){
 
     return(
-        <div>
+        <div className={Styles.frasesContainer}>
             <p>
                 Esse é um site componte com uma frase!
 

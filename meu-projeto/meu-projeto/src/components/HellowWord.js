@@ -5,12 +5,13 @@ function HelloWord(){
     return (
         <div>
 
-            <Frases/>
 
 
             <h1>
                 meu primeiro componente
             </h1>
+
+            <Frases/>
         </div>
     )
 }
