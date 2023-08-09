@@ -1,5 +1,7 @@
 import './App.css';
 import HelloWord from './components/HellowWord'
+import SayMyName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
 
 function App() {
   
@@ -13,18 +15,9 @@ function App() {
 
   return (
     <div className="App">
-
-
-
-      <h2>Alterando o jsx</h2>
-
-      <p>olá, {nome}</p>
-
-      <p>soma: {sum(3 , 5)} </p>
-
-      <img src={url} alt="Miha imagem"/>
-
-      <HelloWord/>
+      <HelloWord/>  
+      <SayMyName nome={nome}/>
+      <Pessoa nome="Rodrigo" idade="28" profissao="programador" foto="https://via.placeholder.com/150"/>
     </div>
   );
 }
