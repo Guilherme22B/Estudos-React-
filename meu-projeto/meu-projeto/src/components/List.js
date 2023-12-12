@@ -1,16 +1,18 @@
-import Itens  from "./Itens";
+import Item from './Item' 
 
-function List (){
+function List(){
     return(
         <>
-        <h1> minha Lista</h1>
         <ul>
-            <item marca="ferrari" ano_lancamento={1985} />
-            <item marca="fiat" ano_lancamento={1964} />
-            <item marca="Renault" ano_lancamento={876} />
+            <Item marca="Ferrari" ano_lancamento={1985}/>
+            <Item marca="Fiat" ano_lancamento={1964}/>
+            <Item marca="Renault" />
+            <Item/>
         </ul>
         </>
     )
 }
+
+
 
 export default List
